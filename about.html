@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* nav :start */
+        .navbg {
+            background-color: #198754;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: yellow;
+        }
+
+        .navbar-toggler-icon {
+            background-color: black;
+            border: 2px solid;
+            border-radius: 30px;
+        }
+
+        .navbar-toggler-icon:hover {
+            background-color: #fff;
+        }
+
+        /* nav :end */
+
+        /* section1 start  */
+
+        .s1 {
+            width: 100%;
+            height: 200px;
+
+            background-color: #198754;
+            color: white;
+            text-align: center;
+
+            font-size: 340px;
+
+
+        }
+
+        /* section1 ends  */
+
+        .s6i1 {
+            border-radius: 10px;
+            height: 40px;
+            width: 240px;
+            color: #bacfc6;
+            background-color: #fff;
+            border: solid 1px gray;
+        }
+
+        .f :hover {
+            color: #198754;
+        }
+
+        .zoom {
+  padding: 50px;
+  background-color: white;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg navbg">
+        <div class="container">
+            <a class="navbar-brand" style="color: #fff;" href="#">
+                <h2>Furni.</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><img class="img-fluid" src="./images/user.png"
+                                alt="" style="width: 22px; height: 22px;"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><img class="img-fluid"
+                                src="./images/shopping-cart.png" alt="" style="width: 28px; height: 28px;"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- nav end -->
+
+    <!-- section 1 start  -->
+    <div class="container-fluid s1">
+        <div class="row">
+            <div class="col-md-12">
+
+
+                <h1 class="py-5" >ABOUT US</h1>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- section 1 ends  -->
+
+    <!-- secttion 2 start -->
+    <div class="container py-5">
+
+        <div class="row gap-lg-0 gap-4">
+             <h1 class="pb-5" style="text-align: center;">Our Team</h1>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img  src="images/person_1.jpg" class="card-img-top zoom" alt="..." >
+                    <div class="card-body">
+                        <h4>Lawson Arnold</h4>
+                        <p style="color: gray;">CEO, Founder, Atty.</p>
+                      <p class="card-text"></p>Separated they live in. <br> Separated they live in <br> Bookmarksgrove right at the <br>  coast of the Semantics, <br> a large language ocean. </p>
+                      <a href="#">learn More</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" >
+                    <img  src="images/person_2-1.jpg" class="card-img-top zoom" alt="..." >
+                    <div class="card-body">
+                        <h4>Jeremy Walker</h4>
+                        <p style="color: gray;">CEO, Founder, Atty.</p>
+                      <p class="card-text"></p>Separated they live in. <br> Separated they live in <br> Bookmarksgrove right at the <br>  coast of the Semantics, <br> a large language ocean. </p>
+                      <a href="#">learn More</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" >
+                    <img  src="images/person_3.jpg" class="card-img-top zoom" alt="..." >
+                    <div class="card-body">
+                        <h4>Patrik White</h4>
+                        <p style="color: gray;">CEO, Founder, Atty.</p>
+                      <p class="card-text"></p>Separated they live in. <br> Separated they live in <br> Bookmarksgrove right at the <br>  coast of the Semantics, <br> a large language ocean. </p>
+                      <a href="#">learn More</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" >
+                    <img  src="images/person_4.jpg" class="card-img-top zoom" alt="..." >
+                    <div class="card-body">
+                        <h4>Kathryn Ryan</h4>
+                        <p style="color: gray;">CEO, Founder, Atty.</p>
+                      <p class="card-text"></p>Separated they live in. <br> Separated they live in <br> Bookmarksgrove right at the <br>  coast of the Semantics, <br> a large language ocean. </p>
+                      <a href="#">learn More</a>
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- secttion 2 ends  -->
+
+
+
+
+
+  
+
+
+
+
+      <!-- section7 start  -->
+
+      <div class="container my-5" style="background-color: gainsboro; border-radius: 10px;">
+        <div class="row p-1">
+            <div class="col-md-4  px-3 ">
+
+                <table>
+                    <tr>
+
+                        <td><img src="./images/envelope-outline.svg" alt=""></td>
+                        <td class="p-2">
+                            <h5>Subscribe to Newsletter</h5>
+                        </td>
+                    </tr>
+
+
+                </table>
+
+                <input class="s6i1" type="text" name="name" placeholder="Enter Your Name" required>
+
+
+            </div>
+
+            <div class="col-md-4 p-0">
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <div class="pt-5  ">
+                            <input class="s6i1 " type="email" name="name" placeholder="Enter Your Email" required>
+                        </div>
+    
+                    </div>
+                    <div class="col">
+                        <div class="pt-5 "> 
+                        
+                            <img class="img-fluid" src="./images/send.png" alt="" style="width: 38px; height: 48px; ;">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./images/sofa.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section7 end  -->
+
+      
+
+        <!-- foooter start  -->
+
+    </div>
+
+    <div class="container-fluid  py-2 " style="background-color: #000; color: white;">
+        <div class="row ">
+            <div class="col-md-4 p-5 ">
+                <h1>Furni.</h1>
+                <p >Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl
+                    dapibus malesuada. Nullam ac aliquet velit.Aliquam vulputate velit imperdiet dolor
+                    tempor tristique. Pellentesque habitant</p>
+
+            </div>
+
+            <div class="col-md-2 py-5   f">
+                <ul style="list-style-type:  none;" class="p-0">
+                    <li>About us</li><br>
+                    <li>Services</li> <br>
+                    <li>Blog</li><br>
+                    <li> Contact us</li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="col-md-2 py-5 f ">
+                <ul style="list-style-type: none;" class="p-0">
+                    <li>Support
+                    </li><br>
+                    <li>
+                        Knowledge base
+                    </li> <br>
+                    <li>
+                        Live chat</li><br>
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-2 py-5 f ">
+                <ul style="list-style-type: none;" class="p-0">
+                    <li>Jobs</li><br>
+                    <li>Our team</li> <br>
+                    <li>Leadership</li><br>
+                    <li>Privacy Policy</li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-2 py-5 f">
+                <ul style="list-style-type: none;" class="p-0">
+                    <li>Nordic Chair
+                    </li><br>
+                    <li>
+                        Kruzo Aero
+                    </li><br>
+                    <li>
+                        Ergonomic Chair</li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <hr>
+        <div class="row f ">
+            <div class="col-md-6 ps-5">
+                Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co Distributed By ThemeWagon
+            </div>
+            <div class="col-md-6 pe-5 " style="text-align:right">
+                Terms & Conditions
+                Privacy Policy
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
